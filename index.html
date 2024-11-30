@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>STEM Vocabulary Flashcards</h1>
+    <div class="controls">
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        <button onclick="startQuizMode()">Start Quiz</button>
+    </div>
+    
+    <div class="category-filter">
+        <select id="category-select" onchange="filterFlashcards()">
+            <option value="all">All Categories</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Math">Math</option>
+        </select>
+    </div>
+
+    <div id="flashcard-container" class="flashcard-container"></div>
+    <div class="navigation-buttons">
+        <button onclick="previousCard()">Previous</button>
+        <button onclick="nextCard()">Next</button>
+    </div>
+    <p id="progress">Card 1 of 3</p>
+
+    <div class="flashcard-form">
+        <input type="text" id="new-question" placeholder="Enter question">
+        <input type="text" id="new-answer" placeholder="Enter answer">
+        <select id="new-category">
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Math">Math</option>
+        </select>
+        <button onclick="addFlashcard()">Add Flashcard</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
