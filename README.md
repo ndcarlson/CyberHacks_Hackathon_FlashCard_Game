@@ -1,20 +1,25 @@
-# **Flashcards for Learning STEM Vocabulary**
+# **STEM Flashcards Application**
 
 ## **Overview**
-This project is a simple web application designed to help users learn STEM vocabulary through interactive flashcards. Each card contains a question or a term on the front side, and when clicked, it flips to reveal the answer. The goal is to make learning engaging and visually interactive, especially for beginners interested in STEM subjects.
+This project is a web application designed to help users learn STEM vocabulary through interactive flashcards. Users can flip cards to reveal answers, filter by categories, create their own cards, and even quiz themselves. The application aims to make learning more engaging and visually interactive, especially for beginners interested in STEM subjects.
 
 ## **Problem Addressed**
-Learning STEM concepts can be challenging for students, especially when trying to memorize complex terms and definitions. Flashcards have been proven to be an effective tool for helping users reinforce their memory through repetition. This project aims to make that learning experience more interactive and enjoyable.
+Learning STEM concepts can be challenging, especially when trying to memorize complex terms and definitions. Flashcards have proven to be an effective tool for reinforcing memory through repetition. This project makes the learning experience interactive, customizable, and fun.
 
 ## **Features**
 - **Interactive Flashcards**: Click on a flashcard to flip it and reveal the answer.
-- **Simple and Engaging UI**: Designed with a clean interface to make it easy to use.
-- **Browser-Based**: No installation is required—just open the HTML file in a web browser.
+- **Category Filtering**: Filter flashcards by different STEM categories such as Physics, Chemistry, and Math.
+- **Quiz Mode**: Test your knowledge using the quiz feature, which presents multiple-choice questions based on the flashcards.
+- **Add Your Own Flashcards**: Add new flashcards with your questions and answers, and assign them to a category.
+- **Text-to-Speech Functionality**: Each question is read aloud to enhance the learning experience and make it accessible to auditory learners.
+- **Dark Mode Toggle**: Switch between dark and light themes for a more comfortable viewing experience, with preferences saved for future visits.
+- **Navigation Between Cards**: Navigate through the cards using "Next" and "Previous" buttons that work within the selected category.
 
 ## **Technologies Used**
-- **HTML**: Used to create the structure of the flashcards.
-- **CSS**: Adds styling to make the flashcards visually appealing.
-- **JavaScript**: Provides interactivity for flipping the cards.
+- **HTML**: Structure of the flashcards and user interface.
+- **CSS**: Styling to make the application visually appealing.
+- **JavaScript**: Adds interactivity, including card flipping, category filtering, quiz mode, and more.
+- **Local Storage**: Saves user preferences (e.g., dark mode) to maintain a personalized experience.
 
 ## **How to Run the Project**
 1. **Clone the Repository**:
@@ -26,20 +31,18 @@ Learning STEM concepts can be challenging for students, especially when trying t
    - You will see a series of flashcards that you can click on to flip and see the answers.
 
 ## **How to Use**
-- **Click on a Flashcard**: Each card has a question or term on the front. Clicking on it will flip the card to reveal the answer on the back.
-- **Learn and Have Fun**: Use the flashcards to test your knowledge of different STEM concepts!
+- **Flashcards**: Click on a flashcard to flip it and reveal the answer.
+- **Filter by Category**: Use the dropdown menu to select a specific category of flashcards.
+- **Navigation**: Use the "Next" and "Previous" buttons to navigate through flashcards in the current category.
+- **Add Flashcards**: Use the form at the bottom of the page to add your own flashcards.
+- **Quiz Mode**: Click the "Start Quiz" button to test your knowledge with multiple-choice questions.
+- **Toggle Dark Mode**: Click the "Toggle Dark Mode" button to switch between light and dark themes.
 
 ## **Future Enhancements**
-If more time were available, here are some features that could be added:
-- **Additional Flashcards**: Increase the number of flashcards to cover more topics.
-- **User-Generated Cards**: Allow users to add their own questions and answers.
-- **Progress Tracking**: Track how many questions the user gets right to add an element of gamification.
-
-## **Demo**
-Here’s a quick overview of how the project looks and works:
-- The project is composed of interactive cards that rotate on click, revealing the answer to each question.
-- You can view a demonstration video that shows the flashcards being used [here](link to your demo video).
+- **User Authentication**: Add user accounts to allow personalized sets of flashcards and progress tracking.
+- **Sharing Flashcards**: Enable users to share their flashcard sets with others.
+- **Leaderboards**: Add a scoring system and leaderboard to motivate users to learn and compete.
+- **Progress Tracking**: Track the user's learning progress, including the number of correct answers and cards reviewed.
 
 ## **Team Members**
-- **Nicholas**: Developer and Designer
-
+- **Nicholas Carlson**: Developer and Designer
